@@ -1,0 +1,2 @@
+# idrok
+# takrorlash darslari uchun
