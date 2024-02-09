@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Section 1 */
+
+.section1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.193), rgba(0, 0, 0, 0.193)), url("./assits/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 758px;
+    padding: 105px;
+}
+
+.section1 .container1 {
+    color: white;
+    height: 100%;
+}
+
+.section1 .container1 .brend {
+    font-size: 25px;
+    position: relative;
+}
+
+.section1 .container1 .brend .logo {
+    border-radius: 50%;
+    background-color: white;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.908);
+    padding: 10px;
+    display: inline-block;
+    position: absolute;
+    top: 2px;
+}
+
+.section1 .container1 .brend .brendName {
+    display: inline-block;
+    margin-left: 70px;
+}
+
+.section1 .container1 .meaning {
+    font-size: xx-large;
+    margin-top: 150px;
+    color: whitesmoke;
+}
+
+.section1 .container1 .direction {
+    text-transform: uppercase;
+    font-size: 70px;
+    margin-top: 85px;
+}
+
+.section1 .container1 .contact {
+    text-transform: uppercase;
+    border: solid 2px whitesmoke;
+    width: fit-content;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: x-large;
+    margin-top: 50px;
+    display: block;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.section1 .container1 .contact:hover {
+    background-color: rgba(100, 122, 140, 0.439);
+}
+
+
+/* Section 2 */
+
+.section2 {
+    background-color: rgb(66, 59, 48);
+    height: 758px;
+    color: whitesmoke;
+    padding-top: 14%;
+}
+
+.section2 .container2 {
+    text-align: center;
+    width: 100%;
+}
+
+.section2 .container2 p {
+    width: 48%;
+    display: inline-block;
+    font-size: x-large;
+    margin: 25px;
+}
+
+.section2 .container2 .consult {
+    text-transform: uppercase;
+    border: solid 2px whitesmoke;
+    width: fit-content;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: x-large;
+    display: block;
+    color: whitesmoke;
+    text-decoration: none;
+    margin: auto;
+    margin-top: 85px;
+}
+
+.section2 .container2 .consult:hover {
+    background-color: rgba(159, 136, 108, 0.439);
+}
+
+
+/* Section 3 */
+
+.section3 {
+    background-color: rgb(237, 235, 235);
+    height: 850px;
+    padding-top: 5%;
+}
+
+.section3 .container3 {
+    text-align: center;
+    width: 100%;
+}
+
+.section3 .container3 .forSale {
+    font-size: 60px;
+    text-transform: uppercase;
+    margin: 50px;
+}
+
+.section3 .container3 .card {
+    width: 400px;
+    display: inline-block;
+    margin: 40px;
+}
+
+.section3 .container3 .card .cardPhoto {
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+.section3 .container3 .card .cardPhoto img {
+    width: 100%;
+}
+
+.section3 .container3 .information {
+    text-align: left;
+}
+
+.section3 .container3 .information .type {
+    text-transform: uppercase;
+    background-color: whitesmoke;
+    padding: 3px 6px;
+    width: fit-content;
+    margin: 10px 0;
+}
+
+.section3 .container3 .information .address {
+    text-transform: uppercase;
+    margin: 10px 0;
+    font-size: x-large;
+}
+
+.section3 .container3 .information .opportunity {
+    text-transform: capitalize;
+}
+
+
+/* Section 4 */
+
+.section4 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)), url("./assits/5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    color: whitesmoke;
+    padding-top: 300px;
+}
+
+.section4 .container4 {
+    width: 100%;
+    text-align: center;
+}
+
+.section4 .container4 .title {
+    text-transform: uppercase;
+    font-size: xx-large;
+    margin: 40px 0;
+}
+
+.section4 .container4 .describe {
+    font-size: x-large;
+    width: 35%;
+    margin: auto;
+}
+
+.section4 .container4 .watch {
+    text-transform: uppercase;
+    background-color: whitesmoke;
+    width: fit-content;
+    padding: 20px 50px 20px 50px;
+    font-size: 25px;
+    display: block;
+    color: black;
+    text-decoration: none;
+    margin: auto;
+    margin-top: 45px;
+}
+
+.section4 .container4 .watch:hover {
+    background-color: rgba(153, 153, 153, 0.439);
+    border: solid 2px whitesmoke;
+    color: whitesmoke;
+}
+
+
+/* Section 5 */
+
+.section5 {
+    background-color: rgb(233, 230, 230);
+    height: 850px;
+    padding-top: 5%;
+}
+
+.section5 .container5 {
+    width: 100%;
+    text-transform: uppercase;
+    padding: 7% 12%;
+
+}
+
+.section5 .container5 .booktext {
+    width: 38%;
+    display: inline-block;
+    height: 100%;
+}
+
+.section5 .container5 .booktext .move{
+   font-size: 60px;
+   margin-bottom: 65px;
+}
+
+.section5 .container5 .booktext .offers{
+    font-size: x-large;
+ }
+
+ .section5 .container5 .bookImg{
+    background-image: url("./assits/6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60px;   
+    display: inline-block;
+    /* margin-left: 50px; */
+    border: 1px red solid;
+}
