@@ -9,42 +9,165 @@ body {
     background-color: #f8f9fa;
 }
 
-.link{
+.link {
     text-decoration: none;
     color: rgb(91, 138, 239);
 }
 
-.link:hover{
+.link:hover {
     text-decoration: underline;
 }
 
-.container{
+.container {
     /* border: solid 1px red; */
-    margin: 16px 20% ;
+    margin: 16px 20%;
     padding: 0 15px;
 }
 
-.container .top{
+.container .top {
     padding: 15px 15px;
     border-radius: 5px;
     background-color: rgba(220, 226, 227, 0.504);
     color: grey;
 }
 
-.container .contents{
+.container .contents {
     display: flex;
 }
 
-.container .contents .left{
-    flex: 20%;
+.container .contents .left {
+    flex: 16%;
+    padding-right: 10px;
 }
 
-.container .contents .left #robo{
-    padding: 18px 10px;
+.container .contents .left #robo {
+    padding: 18px 10px 7px 10px;
     font-size: 22px;
 }
 
-.container .contents .right{
-    flex: 80%;
+.container .contents .left .menus .menu {
+    list-style-type: none;
+    padding: 10px 10px;
+    margin: 3px;
+    border-radius: 3px;
 }
 
+.container .contents .left .menus .menu:hover {
+    list-style-type: none;
+    padding: 10px 10px;
+    background-color: rgb(222, 229, 255);
+
+}
+
+.container .contents .left .menus .menu .link:hover {
+    text-decoration: none;
+}
+
+.container .contents .left .menus .menu .icon {
+    color: rgb(57, 85, 246);
+}
+
+.container .contents .left .menus .selected {
+    background-color: rgb(222, 229, 255);
+}
+
+.container .contents .left hr {
+    margin: 15px 0;
+    color: rgb(199, 199, 199);
+}
+
+.container .contents .right {
+    flex: 84%;
+    background-color: white;
+    margin-top: 18px;
+    border: 0.2px solid rgb(228, 228, 228);
+    border-radius: 5px;
+}
+
+.container .contents .right .sort {
+    display: flex;
+    margin: 7px;
+}
+
+.container .contents .right .sort .input1 {
+    flex: 63%;
+    border: 1px solid rgb(215, 214, 214);
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    padding: 10px;
+}
+
+.container .contents .right .sort .input1:focus {
+    outline: 3px solid rgba(121, 181, 223, 0.402);
+    z-index: 10;
+}
+
+.container .contents .right .sort .input2 {
+    flex: 29%;
+    border: 1px solid rgb(215, 214, 214);
+    padding: 10px;
+    border-left: none;
+}
+
+.container .contents .right .sort .input2:focus {
+    outline: 3px solid rgba(121, 181, 223, 0.402);
+}
+
+.container .contents .right .sort button {
+    flex: 8%;
+    border: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background-color: rgb(53, 126, 220);
+    color: white;
+    padding: 10px 5px;
+}
+
+.container .contents .right .sort button:active {
+    outline: 3px solid rgba(121, 181, 223, 0.402);
+}
+
+.container .contents .right .resours {
+    position: relative;
+    margin: 0 7px;
+}
+
+.container .contents .right .resours .download {
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-decoration: none;
+    background-color: rgb(53, 126, 220);
+    color: white;
+    padding: 8px 7px;
+    border-radius: 3px;
+    font-size: 12.6px;
+}
+
+.container .contents .right #puzzles {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 45px;
+}
+
+.container .contents .right #puzzles td,
+.container .contents .right #puzzles th {
+    color: rgb(105, 173, 228);
+    padding: 8px;
+}
+
+.container .contents .right #puzzles tr:nth-of-type(odd) {
+    background-color: #f7f7f7d8;
+}
+
+.container .contents .right #puzzles tr:hover {
+    background-color: #eaeaea;
+}
+
+.container .contents .right #puzzles th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    /* background-color: #f2f2f2; */
+    /* color: white; */
+}

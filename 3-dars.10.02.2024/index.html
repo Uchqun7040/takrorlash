@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,8 +9,9 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
         integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
     <div class="container">
         <div class="top">
@@ -25,59 +27,195 @@
                 <ul class="menus">
                     <li class="menu">
                         <a class="link" href="#">
-                            <i class="fa fa-user icon" aria-hidden="true"></i>
+                            <i class="fas fa-user icon" aria-hidden="true"></i>
                             Foydalanuvchilar
                         </a>
                     </li>
-                    <li class="menu">
+                    <li class="menu selected">
                         <a class="link" href="#">
-                            <i class="fa fa-book icon" aria-hidden="true"></i>
+                            <i class="fas fa-book icon" aria-hidden="true"></i>
                             Masalalar
                         </a>
                     </li>
                     <li class="menu">
                         <a class="link" href="#">
-                            <fa4-strava></fa4-strava>
+                            <i class="fab fa-strava icon" aria-hidden="true"></i>
                             Urinishlar
                         </a>
                     </li>
                     <li class="menu">
-                        <a class="link" href="#">Olimpiadalar</a>
+                        <a class="link" href="#">
+                            <i class="fas fa-medal icon" aria-hidden="true"></i>
+                            Olimpiadalar
+                        </a>
                     </li>
                     <li class="menu">
-                        <a class="link" href="#">Testlar</a>
+                        <a class="link" href="#">
+                            <i class="fas fa-subscript icon" aria-hidden="true"></i>
+                            Testlar
+                        </a>
                     </li>
                     <li class="menu">
-                        <a class="link" href="#">Kurslar</a>
+                        <a class="link" href="#">
+                            <i class="fas fa-graduation-cap icon" aria-hidden="true"></i>
+                            Kurslar
+                        </a>
                     </li>
                     <li class="menu">
-                        <a class="link" href="#">Bloglar</a>
+                        <a class="link" href="#">
+                            <i class="fas fa-pen-alt icon" aria-hidden="true"></i>
+                            Bloglar
+                        </a>
                     </li>
                     <li class="menu">
-                        <a class="link" href="#">Tizimda ishlash</a>
+                        <a class="link" href="#">
+                            <i class="fa fa-info-circle icon" aria-hidden="true"></i>
+                            Tizimda ishlash
+                        </a>
                     </li>
                 </ul>
                 <hr>
                 <ul class="menus">
                     <li class="menu">
-                        <a class="link" href="#">Bizning jamoa</a>
+                        <a class="link" href="#">
+                            <i class="fas fa-code icon" aria-hidden="true"></i>
+                            Bizning jamoa
+                        </a>
                     </li>
                     <li class="menu">
-                        <a class="link" href="#">Telegram kanalimiz</a>
+                        <a class="link" href="#">
+                            <i class="fab fa-telegram icon" aria-hidden="true"></i>
+                            Telegram kanalimiz
+                        </a>
                     </li>
                 </ul>
                 <hr>
                 <ul class="menus">
                     <li class="menu">
-                        <a class="link" href="#">Kirish</a>
+                        <a class="link" href="#">
+                            <i class="fas fa-key icon" aria-hidden="true"></i>
+                            Kirish
+                        </a>
                     </li>
                     <li class="menu">
-                        <a class="link" href="#">Ro'yxatdan o'tish</a>
+                        <a class="link" href="#">
+                            <i class="fas fa-user-plus icon" aria-hidden="true"></i>
+                            Ro'yxatdan o'tish
+                        </a>
                     </li>
                 </ul>
             </div>
-            <div class="right">e</div>
+            <div class="right">
+                <div class="sort">
+                    <input class="input1" type="text" placeholder="Izlash...">
+                    <input class="input2" type="text" placeholder="Barcha toifalar">
+                    <button>
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                        Izlash
+                    </button>
+                </div>
+                <div class="resours">
+                    <a href="#" class="download">
+                        <i class="fas fa-book icon" aria-hidden="true"></i>
+                        Masalalar kitobini yuklab olish
+
+                    </a>
+                </div>
+                <table id="puzzles">
+                    <tr>
+                        <th>
+                            Tartib raqam
+                            <i class="fas fa-sort" aria-hidden="true"></i>
+                        </th>
+                        <th>
+                            Yechim
+                        </th>
+                        <th>
+                            Nomi
+                        </th>
+                        <th>
+                            Qiyinchiligi
+                            <i class="fas fa-sort" aria-hidden="true"></i>
+                        </th>
+                        <th>
+                            Toifasi
+                        </th>
+                        <th>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fas fa-sort" aria-hidden="true"></i>
+                        </th>
+                        <th>
+                            <i class="fas fa-user-check" aria-hidden="true"></i>
+                            <i class="fas fa-sort" aria-hidden="true"></i>
+                        </th>
+                        <th>
+                            <i class="fas fa-check-square" aria-hidden="true"></i>
+                            <i class="fas fa-sort" aria-hidden="true"></i>
+                        </th>
+                        <th>
+                            <i class="fab fa-strava" aria-hidden="true"></i>
+                            <i class="fas fa-sort" aria-hidden="true"></i>
+                        </th>
+                        <th>
+                            <i class="fas fa-percentage" aria-hidden="true"></i>
+                            <i class="fas fa-sort" aria-hidden="true"></i>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>0001</td>
+                        <td style="text-align: center;">
+                            <i class="fa fa-play-circle" aria-hidden="true"></i>
+                        </td>
+                        <td>A+B</td>
+                        <td>1%</td>
+                        <td>Oson</td>
+                        <td>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            3.6
+                        </td>
+                        <td>
+                            29516
+                        </td>
+                        <td>
+                            68238
+                        </td>
+                        <td>
+                            178921
+                        </td>
+                        <td>
+                            38.1
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>0002</td>
+                        <td style="text-align: center;">
+                            <i class="fa fa-play-circle" aria-hidden="true"></i>
+                        </td>
+                        <td>Katta-kichik</td>
+                        <td>3%</td>
+                        <td>Oson</td>
+                        <td>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            3.5
+                        </td>
+                        <td>
+                            20737	
+                        </td>
+                        <td>
+                            32496
+                        </td>
+                        <td>
+                            92463
+                        </td>
+                        <td>
+                            35.1
+                        </td>
+                    </tr>
+                    
+                </table>
+            </div>
         </div>
     </div>
 </body>
+
 </html>
