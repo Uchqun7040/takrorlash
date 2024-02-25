@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    padding: 150px 0;
+}
+
+.container{
+    margin: auto;
+    width: 700px;
+    /* height: 600px; */
+    background-color:rgb(255, 133, 81);
+    padding: 50px;
+    position: relative;
+}
+
+
+.container .box{
+    text-align: center;
+    background-color:rgb(255, 255, 255);
+    border-radius: 40px;
+    /* height: 100%; */
+    padding: 40px 80px 80px 80px;
+}
+
+.container .box form{
+    margin: auto;
+    background-color:rgb(255, 255, 255);
+    height: 100%;
+    text-align: left;
+}
+
+.container .box form #templete{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 35px 0;
+}
+
+.container .box form #fname,
+.container .box form #email,
+.container .box form #message{
+    border-radius: 30px;
+    width: 100%;
+    padding: 20px 30px;
+    margin: 15px 0;
+    font-size: large;
+    border: none;
+    background-color: rgb(233, 241, 250);
+}
+
+.container .box form #fname:focus,
+.container .box form #email:focus,
+.container .box form #message:focus{
+    outline: none;
+    background-color: rgba(211, 228, 247, 0.859);
+}
+
+.container .box form #send{
+    width: 100%;
+    border-radius: 30px;
+    text-align: center;
+    padding: 20px 0;
+    font-size: large;
+    color: white;
+    border: none;
+    background-color:rgb(255, 133, 81);
+    box-shadow: 0px 5px rgb(252, 90, 21);
+}
+
+/* .container #shape1,
+.container #shape2,
+.container #shape3,
+.container #shape4{
+    background-color: white;
+    display: inline-block;
+    width: 90px;
+    height: 30px;
+    position: absolute;
+    border-radius: 15px;
+}
+
+.container #shape1{
+    top: 90px;
+    right: -15px;
+} */
+.container .shape-r {
+    height: 90px;
+    width: 70px;
+    position: absolute;
+    /* border: 1px solid red; */
+    top: 100px;
+    right: 0px;
+}
+
+.container .shape-r #shape1{
+    width: 100%;
+    background-color: white;
+    height: 30px;
+}
+
+.container .shape-r #shape2{
+    width: 100%;
+    background-color: rgb(255, 133, 81);
+    height: 30px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.container .shape-r #shape3{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    height: 30px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+
+.container .shape-l {
+    height: 90px;
+    width: 70px;
+    position: absolute;
+    /* border: 1px solid red; */
+    bottom: 100px;
+    left: 0;
+}
+
+.container .shape-l #shape1{
+    width: 100%;
+    background-color: white;
+    height: 30px;
+}
+
+.container .shape-l #shape2{
+    width: 100%;
+    background-color: rgb(255, 133, 81);
+    height: 30px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.container .shape-l #shape3{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    height: 30px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
