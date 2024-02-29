@@ -1,0 +1,203 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* task1:heart */
+.task1{
+    text-align: center;
+    padding: 100px;
+}
+
+.task1 #heart{
+    width: 300px;
+    animation-name: heart;
+    animation-duration: 1.2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-delay: 0.3s;
+}
+
+/* .task1 #heart:hover{
+    animation-name: heart;
+    animation-duration: 1.2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-delay: 0.3s;
+} */
+
+@keyframes heart {
+    0%{
+        transform: scale(1);
+    }
+    10%{
+        transform: scale(1.1);
+    }
+    20%{
+        transform: scale(1);
+    }
+    30%{
+        transform: scale(1.1);
+    }
+    40%{
+        transform: scale(1);
+    }
+}
+
+.line{
+    width: 100%;
+    border: 2px solid rgb(133, 133, 133);
+}
+
+
+
+/* task2: water drop*/
+.task2{
+    background-color: rgb(48, 3, 111);
+    text-align: center;
+    padding: 300px;
+    
+}
+
+.task2 .box{
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+.task2 .box div{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    box-shadow: 0px 0px 13px white;
+    animation: circlex 2.5s ease-out infinite;
+    animation-delay: calc(-0.5s * var(--i));
+}
+
+
+@keyframes circlex {
+    from{
+        transform: scale(1);
+    }
+    to{
+         transform: scale(2.5);
+        opacity: 0;
+    }
+}
+
+
+/* task3: bubles */
+.task3{
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.task3 div{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 80px;
+    /* animation: buble 2.5s linear calc(0.2s*var(--i)) infinite ; */
+}
+
+.task3 .shape1{
+    background-color: yellow;
+    box-shadow: 0 0 10px yellow;
+    animation: buble1 2.5s linear 0.2s infinite;
+}
+
+.task3 .shape2{
+    background-color: rgb(128, 255, 59);
+    box-shadow: 0 0 10px rgb(128, 255, 59);
+    animation: buble2 2.5s linear 0.4s infinite;
+}
+
+.task3 .shape3{
+    background-color: aqua;
+    box-shadow: 0 0 10px aqua;
+    animation: buble3 2.5s linear 0.6s infinite;
+}
+
+.task3 .shape4{
+    background-color: red;
+    box-shadow: 0 0 10px red;
+    animation: buble4 2.5s linear 0.8s infinite;
+}
+
+.task3 .shape5{
+    background-color: rgb(246, 25, 154);
+    box-shadow: 0 0 10px rgb(246, 25, 154);
+    animation: buble5 2.5s linear 1s infinite;
+}
+
+@keyframes buble1{
+    0%{
+        transform: scale(1);
+    }
+    10%{
+        transform: scale(3);
+        box-shadow: 0 0 25px yellow;
+    }
+    25%{
+        transform: scale(1);
+    }
+}
+
+@keyframes buble2{
+    0%{
+        transform: scale(1);
+    }
+    10%{
+        transform: scale(3);
+        box-shadow: 0 0 25px rgb(128, 255, 59);
+    }
+    25%{
+        transform: scale(1);
+    }
+}
+
+@keyframes buble3{
+    0%{
+        transform: scale(1);
+    }
+    10%{
+        transform: scale(3);
+        box-shadow: 0 0 25px aqua;
+    }
+    25%{
+        transform: scale(1);
+    }
+}
+
+@keyframes buble4{
+    0%{
+        transform: scale(1);
+    }
+    10%{
+        transform: scale(3);
+        box-shadow: 0 0 25px red;
+    }
+    25%{
+        transform: scale(1);
+    }
+}
+
+@keyframes buble5{
+    0%{
+        transform: scale(1);
+    }
+    10%{
+        transform: scale(3);
+        box-shadow: 0 0 25px rgb(246, 25, 154);
+    }
+    25%{
+        transform: scale(1);
+    }
+}
